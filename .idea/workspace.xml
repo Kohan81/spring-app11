@@ -8,9 +8,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa76791d-9e61-45a8-887e-e4305d4d6af1" name="Changes" comment="Eugene2">
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+    <list default="true" id="fa76791d-9e61-45a8-887e-e4305d4d6af1" name="Changes" comment="set name = Eugene Jr.&#10;add &quot;my name is: &quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kohan81/learning/ClassicalMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kohan81/learning/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kohan81/learning/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kohan81/learning/RockMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kohan81/learning/TestBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kohan81/learning/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kohan81/learning/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -31,6 +38,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -41,7 +49,7 @@
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/Kohan81/spring-app1.git",
+    "url": "https://github.com/Kohan81/spring-app11.git",
     "accountId": "9bc0a89e-6c21-4826-aaac-4c75d9b687cd"
   }
 }]]></component>
@@ -92,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713536189372</updated>
-      <workItem from="1713536224246" duration="12793000" />
+      <workItem from="1713536224246" duration="16083000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -118,7 +126,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713550922276</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="set name = Eugene Jr.">
+      <option name="closed" value="true" />
+      <created>1713552343330</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713552343330</updated>
+    </task>
+    <task id="LOCAL-00005" summary="set name = Eugene Jr.&#10;add &quot;my name is: &quot;">
+      <option name="closed" value="true" />
+      <created>1713552680526</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713552680526</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +189,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="Eugene2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eugene2" />
+    <MESSAGE value="set name = Eugene Jr." />
+    <MESSAGE value="set name = Eugene Jr.&#10;add &quot;my name is: &quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="set name = Eugene Jr.&#10;add &quot;my name is: &quot;" />
   </component>
 </project>
