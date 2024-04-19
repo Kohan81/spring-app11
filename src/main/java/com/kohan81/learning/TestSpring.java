@@ -13,6 +13,7 @@ public class TestSpring {
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
         TestBean testBean = context.getBean("testBean", TestBean.class);
+        testBean.setName("Eugene Jr.");
         System.out.println(testBean.getName());
 
         context.close();
