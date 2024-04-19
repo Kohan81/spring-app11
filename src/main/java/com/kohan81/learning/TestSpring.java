@@ -14,7 +14,7 @@ public class TestSpring {
 
         TestBean testBean = context.getBean("testBean", TestBean.class);
         testBean.setName("Eugene Jr.");
-        System.out.println(testBean.getName());
+        System.out.println("my name is: " + testBean.getName());
 
         context.close();
     }
