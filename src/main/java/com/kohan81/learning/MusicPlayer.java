@@ -20,9 +20,9 @@ public class MusicPlayer {
     MusicPlayer(){
     }
 
-    void addMusic(Music music){
-        musicList.add(music);
-    }
+//    void setMusicList(List<Music> musicList){
+//        this.musicList = musicList;
+//    }
 
     public void setMusic(Music music){
         this.music = music;
@@ -52,5 +52,9 @@ public class MusicPlayer {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setMusicList(List <Music>musicList) {
+        this.musicList = musicList;
     }
 }
