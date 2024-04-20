@@ -10,6 +10,8 @@ public class MusicPlayer {
     private String name;
     private int volume;
 
+    List <Music> musicList = new ArrayList<>();
+
     //IoC
     MusicPlayer(Music music){
         this.music = music;
@@ -17,8 +19,6 @@ public class MusicPlayer {
 
     MusicPlayer(){
     }
-
-    List <Music> musicList = new ArrayList<>();
 
     void addMusic(Music music){
         musicList.add(music);
