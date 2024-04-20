@@ -11,4 +11,9 @@
           class="com.kohan81.learning.ClassicalMusic">
     </bean>
 
+    <bean id = "musicPlayer"
+        class="com.kohan81.learning.MusicPlayer">
+        <constructor-arg ref="musicBean"/>
+    </bean>
+
 </beans>
