@@ -1,8 +1,11 @@
 package com.kohan81.learning;
 
+import java.util.*;
+
 public class MusicPlayer {
 
     private Music music;
+
 
     private String name;
     private int volume;
@@ -13,7 +16,12 @@ public class MusicPlayer {
     }
 
     MusicPlayer(){
+    }
 
+    List <Music> musicList = new ArrayList<>();
+
+    void addMusic(Music music){
+        musicList.add(music);
     }
 
     public void setMusic(Music music){
@@ -22,6 +30,12 @@ public class MusicPlayer {
 
     public void play(){
         System.out.println("Playnig: " + music.getSong());
+    }
+
+    public void playList(){
+        for(Music music : musicList){
+            System.out.println("Playing: " + music.getSong());
+        }
     }
 
     public int getVolume() {
