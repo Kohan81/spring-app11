@@ -13,12 +13,20 @@ public class MusicPlayer {
     List <Music> musicList = new ArrayList<>();
 
     //IoC
-    MusicPlayer(Music music){
+    private MusicPlayer(Music music){
         this.music = music;
     }
 
-    MusicPlayer(){
+    private MusicPlayer(){
     }
+
+     void doInit(){
+         System.out.println("Initializing Music Player");
+     }
+
+     void doDestroy(){
+        System.out.println("Destroying Music Player");
+     }
 
 //    void setMusicList(List<Music> musicList){
 //        this.musicList = musicList;
